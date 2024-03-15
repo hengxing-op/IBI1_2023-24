@@ -1,6 +1,6 @@
 <<<<<<< HEAD
-i like ten things
-what one thing
+i like ten things 
+besides one thing
 =======
 I really like nine things.
 besides one thing
