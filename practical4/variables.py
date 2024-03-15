@@ -14,10 +14,15 @@ else:
     print("Improvement from running and strength training is greater than that from running only")
 # runing and strength training had a greater effect on the 5 km time
 
+#time table:
+#A True B True: False
+#A True B false: True
+#A false B true: True
+#A false B false: false
 X=1<2
 Y=1>2
-W= (X or Y) and (not X and Y)
+W= (X or Y) and not (X and Y)
 print (W)
-# When there are one true and one false, X or Y is true, X and Y is false, (not X and Y) is true, so (X or Y) and (not X and Y) is true, satisfies the requirement.
-#When there are two trues, X or Y is true, but (not X and Y) is false, (X or Y) and (not X and Y) is false, satisfies the requirement.
-#When there are two falses, X or Y is false, (not X and Y) is true, so () and () is false, satisfy the requirement.
+# When there are one true and one false, X or Y is true, X and Y is false, not (X and Y) is true, so (X or Y) and not (X and Y) is true, satisfies the requirement.
+#When there are two trues, X or Y is true, but not (X and Y) is false, (X or Y) and not (X and Y) is false, satisfies the requirement.
+#When there are two falses, X or Y is false, not (X and Y) is true, so () and () is false, satisfy the requirement.
