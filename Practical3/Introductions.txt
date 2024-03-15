@@ -1,5 +1,6 @@
 Hello. 
 My name is hengxing.
-I like drinking tea and eating chocolate biscuits.
-I am enjoying teaching IBI1 in person again 
+I like drinking lemonade and eating chocolate.
+I am enjoying studying IBI1 in person. 
 I am happy that I can push my repo from Visual Studio Code to GitHub
+yeahhhhh!
