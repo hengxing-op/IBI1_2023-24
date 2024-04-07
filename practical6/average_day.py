@@ -1,29 +1,18 @@
-import matplotlib.pyplot as plt
-
-#Create a dictionary with activities and hours
-activities = {
-    "Sleeping": 8,
-    "Classes": 6,
-    "Studying": 3.5,
-    "TV": 2,
-    "Music": 1
-}
-
-#Calculate 'Other' category hours and add it to the dictionary
-total_hours_accounted = sum(activities.values())
-activities["Other"] = 24 - total_hours_accounted
-
-#Print the activities dictionary
-print("Activities dictionary:", activities)
-
-#Generate and display a pie chart
-labels = activities.keys()
-sizes = activities.values()
-plt.figure()
-plt.pie(sizes, labels=labels, startangle=90)
-plt.title('Average Day of a University Student')
-plt.show()
-
-#Print hours spent on a specific activity (modify this variable to test)
-requested_activity = "Studying"  # Modify this line for different activities
-print(f"Hours spent on {requested_activity}: {activities[requested_activity]}")
+#import somes tools in Python for making graphs
+#In this session, since we want to change the time freely, so we need a variable to save values
+#In the list, each string represents a variable
+import numpy as py #inport python tools
+import matplotlib.pyplot as plt #import python tools
+sleep = 8
+classes = 6
+study = 3.5
+tv = 2
+music = 1
+other = 3.5
+Average_day = {"Sleeping":sleep,"Classes":classes,"Studying":study,"TV":tv,"Music":music,"Other":other} #make a dictionary to record the data which can be changed by the variables
+print(Average_day)
+Hours_types = ["Sleeping","Classes","Studying","TV","Music","Other"] #make a list of types of hours spending
+Hours = [sleep,classes,study,tv,music,other] #make a list of hours spending variables
+plt.pie(Hours, labels = Hours_types,autopct='%1.1f%%') #use pie graph that is included in the matplotlib
+plt.show() #show the graph in a new window
+plt.clf() #close the graph
