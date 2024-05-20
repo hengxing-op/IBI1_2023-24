@@ -1,18 +1,34 @@
-#import somes tools in Python for making graphs
-#In this session, since we want to change the time freely, so we need a variable to save values
-#In the list, each string represents a variable
-import numpy as py #inport python tools
-import matplotlib.pyplot as plt #import python tools
-sleep = 8
-classes = 6
-study = 3.5
-tv = 2
-music = 1
-other = 3.5
-Average_day = {"Sleeping":sleep,"Classes":classes,"Studying":study,"TV":tv,"Music":music,"Other":other} #make a dictionary to record the data which can be changed by the variables
-print(Average_day)
-Hours_types = ["Sleeping","Classes","Studying","TV","Music","Other"] #make a list of types of hours spending
-Hours = [sleep,classes,study,tv,music,other] #make a list of hours spending variables
-plt.pie(Hours, labels = Hours_types,autopct='%1.1f%%') #use pie graph that is included in the matplotlib
-plt.show() #show the graph in a new window
-plt.clf() #close the graph
+# Import necessary libraries
+import matplotlib.pyplot as plt
+
+# Create a dictionary with the given data
+activities = {
+    'Sleeping': 8,
+    'Classes': 6,
+    'Studying': 3.5,
+    'TV': 2,
+    'Music': 1
+}
+
+# Add an 'other' category to account for remaining hours
+total_hours_in_a_day = 24
+hours_spent = sum(activities.values())
+activities['Other'] = total_hours_in_a_day - hours_spent
+
+print("Activities dictionary:")
+print(activities)
+
+# Plot a pie chart using matplotlib
+labels = list(activities.keys())
+sizes = list(activities.values())
+
+plt.figure(figsize=(10, 6))
+plt.pie(sizes, labels=labels, autopct='%1.1f%%', startangle=140)
+plt.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
+plt.title('Average Day of a University Student')
+plt.show()
+
+# Print the number of hours spent on a specific activity
+# For example, let's print hours spent on 'Studying'
+requested_activity = 'TV'
+print(f"Hours spent on {requested_activity}: {activities[requested_activity]}")
