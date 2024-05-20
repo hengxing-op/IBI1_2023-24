@@ -18,6 +18,8 @@ def count_repetitive_elements(sequence, pattern):
 count_GTGTGT = count_repetitive_elements(seq, 'GTGTGT')
 count_GTCTGT = count_repetitive_elements(seq, 'GTCTGT')
 
+# Sum both two types
+Total_repetitive_count = count_GTGTGT + count_GTCTGT
+
 # Print the counts
-print(f"Number of 'GTGTGT' instances: {count_GTGTGT}")
-print(f"Number of 'GTCTGT' instances: {count_GTCTGT}")
+print(f"Number of repetitive instances: {Total_repetitive_count}")
