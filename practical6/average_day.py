@@ -30,5 +30,5 @@ plt.show()
 
 # Print the number of hours spent on a specific activity
 # For example, let's print hours spent on 'Studying'
-requested_activity = 'TV'
+requested_activity = 'Music'
 print(f"Hours spent on {requested_activity}: {activities[requested_activity]}")
