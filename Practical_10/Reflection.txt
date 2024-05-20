@@ -1,0 +1,12 @@
+This practical session involved implementing and analyzing the SIR (Susceptible-Infected-Recovered) model using different approaches and parameters. Here are my reflections on how it went:
+
+1. Ease and Difficulty:
+The practical was quite comprehensive, covering various aspects of the SIR model. Implementing the basic SIR model was relatively straightforward due to its well-defined structure. However, extending the model to include spatial dynamics and vaccination strategies introduced complexity. Managing the state updates and ensuring correct logic for infection and recovery in a spatial grid required careful attention.
+
+2. Enjoyable and Less Enjoyable Bits:
+I enjoyed visualizing the results of the SIR model, particularly the impact of different vaccination rates on the infection curves. It was fascinating to see how theoretical concepts translate into observable outcomes. However, debugging issues in the spatial SIR model, especially ensuring correct boundary conditions and neighbor interactions, was less enjoyable due to its intricate nature.
+
+3. Most Important Learning:
+The most important lesson I learned was the significance of model parameters and initial conditions in determining the outcomes of epidemiological models. Small changes in infection and recovery rates, or in the initial number of infected individuals, can lead to vastly different results. Additionally, I gained a deeper understanding of how vaccination can significantly alter the course of an epidemic, highlighting the importance of vaccination programs in public health.
+
+Overall, this practical session enhanced my skills in mathematical modeling, coding, and data visualization, providing a comprehensive understanding of epidemiological dynamics.
