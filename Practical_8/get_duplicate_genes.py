@@ -1,5 +1,3 @@
-# get_duplicate_genes.py
-
 # Path to the input FASTA file
 input_file = r"C:\Users\Star\Desktop\IBIpractice\IBI1_2023-24\Practical_8\Saccharomyces_cerevisiae.R64-1-1.cdna.all.fa"
 # Path to the output FASTA file
