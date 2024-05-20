@@ -1,0 +1,16 @@
+Question: Are there places in the World where the DALYs in 2019 is less than 18,000? If so, where are they?
+Line number: 35
+Result: 
+     Entity Code  Year    DALYs
+    Iceland  ISL  2019 17420.69
+     Israel  ISR  2019 17799.58
+      Japan  JPN  2019 15885.71
+  Singapore  SGP  2019 15045.11
+South Korea  KOR  2019 17191.57
+Switzerland  CHE  2019 17635.03
+
+Discussion:
+The result was expected. These countries (Iceland, Israel, Japan, Singapore, South Korea, Switzerland) are known for their advanced healthcare systems and high living standards.
+The reasons may be these countries have better healthcare, economic stability, effective public health policies, healthier lifestyles, and advanced medical technologies, leading to lower DALYs.
+Summary:
+Countries with strong healthcare systems and high living standards tend to have lower DALYs, indicating a lower burden of disease.
