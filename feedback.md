@@ -22,6 +22,6 @@ print("Sorted China city populations:", sorted_china_cities)
 ```
 
 
-### Future Improvements
+Future Improvements:
 
 To avoid similar mistakes in the future, I will carefully review the task guidelines to ensure all requirements are met and all code is thoroughly checked before submission.
