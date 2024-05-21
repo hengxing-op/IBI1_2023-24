@@ -1,0 +1,16 @@
+Alignment Scores and Identical Percentages:
+
+The identical percentage of human and mouse is 92.53968253968254 %
+The alignment score of human and mouse is 3137.0
+
+The identical percentage of human and rat is 91.74603174603175 %
+The alignment score of human and rat is 3107.0
+
+The identical percentage of rat and mouse is 96.82539682539682 %
+The alignment score of rat and mouse is 3261.0
+
+
+Interpretation:
+
+The sequences of mouse and rat are most closely related based on the highest alignment score and identical percentage.
+The mouse would be a better model organism for studying variation in the SLC6A4 gene in humans, as it has a higher alignment score and identical percentage with human sequences compared to the rat.
